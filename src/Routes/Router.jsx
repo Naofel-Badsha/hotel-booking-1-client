@@ -9,7 +9,7 @@ import RoomDetails from "../pages/Room/RoomDetails";
 import ErroePage from "../Components/ErrorPage/ErroePage";
 import PrivateRoute from "./PrivateRoute";
 import Contact from "../pages/Contact/Contact";
-
+import '../App.css'
 
 
 const router = createBrowserRouter([

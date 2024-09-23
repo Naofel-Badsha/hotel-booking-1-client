@@ -14,17 +14,16 @@ import "swiper/css/autoplay";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const Gallery = () => {
   return (
-    <div className="container m-auto mt-10">
-      <div>
-        <h1 className="text-4xl font-bold py-10 text-center">
-          Hotel Room Gallery
-        </h1>
+    <div className="container m-auto py-5">
+      <SectionTitle heading={"Room Gallery"}></SectionTitle>
+      <div className="px-3">
         <Swiper
           modules={[Navigation, Autoplay]}
-          spaceBetween={15}
+          spaceBetween={20}
           slidesPerView={1}
           navigation
           autoplay={true}
