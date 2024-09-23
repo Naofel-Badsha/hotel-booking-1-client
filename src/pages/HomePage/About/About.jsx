@@ -7,7 +7,7 @@ const About = () => {
       {/*----------Section-----Title---------*/}
       <SectionTitle heading={"Our About"}></SectionTitle>
       <div className="px-3">
-        <div className="flex gap-4 md:gap-6 lg:gap-10 flex-col lg:flex-row">
+        <div className="flex items-center gap-4 md:gap-6 lg:gap-10 flex-col lg:flex-row">
           {/*------------Image-----------*/}
           <div className="flex-1 w-full h-[400px]">
             <img

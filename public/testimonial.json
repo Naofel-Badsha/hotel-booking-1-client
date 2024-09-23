@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/Drs30hD/rev-1.jpg",
+      "name": "John Doe",
+      "description": "The hotel exceeded my expectations with excellent service. The staff was friendly, and the rooms were spotless. I will definitely come back for another stay."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/JzLhcqK/rev-2.jpg",
+      "name": "Jane Smith",
+      "description": "An outstanding experience from check-in to check-out! The facilities were top-notch, and the customer service was exceptional. I highly recommend this hotel for business or leisure stays."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/59thnDP/rev-3.jpg",
+      "name": "Alex Johnson",
+      "description": "A peaceful retreat with wonderful amenities. The spa and wellness services were a highlight of my stay. I left feeling relaxed and refreshed. Will definitely return!"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/H4kmffH/rev-4.jpg",
+      "name": "Maria Gonzalez",
+      "description": "Beautiful hotel with a great location. The rooms were spacious and comfortable, and the staff went above and beyond to make my stay enjoyable. Highly recommend for a family vacation."
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/mzfF0LQ/rev-5.jpg",
+      "name": "David Brown",
+      "description": "This hotel provided everything I needed for a productive business trip. The Wi-Fi was fast, and the business center was well-equipped. Excellent choice for corporate travelers."
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/jvygcGx/rev-6.jpg",
+      "name": "Lisa Martin",
+      "description": "I had an amazing stay! The restaurant served delicious food, and the housekeeping staff kept the rooms pristine. Perfect for anyone looking for comfort and luxury in one place."
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/2PgMh5f/rev-7.jpg",
+      "name": "Robert Wilson",
+      "description": "Impressive hotel with friendly staff and great facilities. The gym was well-maintained, and the rooms were spacious. Will definitely recommend to friends and family."
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/Fq5gYgW/rev-8.jpg",
+      "name": "Emily Davis",
+      "description": "The hotel had everything I needed for a relaxing vacation. The spa treatments were a dream, and the customer service was superb. I will be booking my next stay soon."
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/m9b5LZc/rev-9.jpg",
+      "name": "Michael Lee",
+      "description": "Comfortable and modern hotel with excellent service. The staff was incredibly accommodating and always available to help. I really enjoyed my stay and will return."
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/XJJF0PV/rev-10.jpg",
+      "name": "Sophia King",
+      "description": "Fantastic experience from the moment I arrived. The concierge was very helpful, and the rooms were both stylish and cozy. Definitely a great place to stay."
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/zHXmjhB/rev-11.webp",
+      "name": "James Taylor",
+      "description": "Stayed here for a week and enjoyed every minute. The valet service was fast, and the food was excellent. I felt well taken care of during my stay."
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/LQ4GPdX/rev-12.jpg",
+      "name": "Anna Wright",
+      "description": "The hotel offered everything I needed for a relaxing and luxurious vacation. The spa was my favorite, and the staff was incredibly attentive. Will definitely come back!"
+    },
+    {
+      "id": 13,
+      "image": "https://i.ibb.co/jHsVKCL/rev-13.jpg",
+      "name": "Daniel Clark",
+      "description": "A gem of a hotel! The location was perfect for exploring the city, and the staff was very knowledgeable and helpful. I would absolutely recommend it to others."
+    },
+    {
+      "id": 14,
+      "image": "https://i.ibb.co.com/HP74zLS/meet-profile.jpg",
+      "name": "Olivia Allen",
+      "description": "Beautiful hotel with first-class service. The rooms were clean and cozy, and the front desk was always available for any needs. A perfect place for a getaway."
+    },
+    {
+      "id": 15,
+      "image": "https://i.ibb.co.com/pRZPX2K/pto-1.jpg",
+      "name": "Ethan Miller",
+      "description": "The staff made our stay so pleasant. We loved the on-site restaurant and the complimentary breakfast. A wonderful experience from start to finish. Highly recommended!"
+    }
+  ]
+  
