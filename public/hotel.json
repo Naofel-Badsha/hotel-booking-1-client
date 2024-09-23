@@ -1,0 +1,413 @@
+[
+    {
+      "avel_room": "Room 5",
+      "img": "https://i.ibb.co/ysrYnkV/gal-1.jpg",
+      "count": 5,
+      "room_description": "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi",
+      "room_price": 3100,
+      "room_size": "250 sq ft",
+      "avale": true,
+      "s_offer": "10% off for a 3-night stay"
+    }, 
+    {
+      "avel_room": "Room 2",
+      "img": "https://i.ibb.co/P1V5rJR/gal-2.jpg",
+      "count": 3,
+      "room_description": "Because its about motivating the doers. Because Im here to follow my dreams and inspire others Because its about motivating the doers. Because Im here to follow my dreams and inspire others",
+      "room_price": 1450,
+      "room_size": "350 sq ft",
+      "avale": true,
+      "s_offer": "Free breakfast included"
+    },
+    {
+      "avel_room": "Room 2",
+      "img": "https://i.ibb.co/cNbtZBY/gal-3.jpg",
+      "count": 7,
+      "room_description": "Because its about motivating the doers. Because Im here to follow my dreams and inspire others Luxurious suite with a separate living area.",
+      "room_price": 2050,
+      "room_size": "500 sq ft",
+      "avale": true,
+      "s_offer": "Stay 4 nights, get the 5th night free"
+    },
+    {
+      "avel_room": "Room 4",
+      "img": "https://i.ibb.co/QY3bV1v/gal-4.jpg",
+      "count": 2,
+      "room_description": "Quaint twin room for a comfortable stay The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona.",
+      "room_price": 1920,
+      "room_size": "280 sq ft",
+      "avale": true,
+      "s_offer": "15% off for early booking"
+    },
+    {
+      "avel_room": "Room 5",
+      "img": "https://i.ibb.co/vZXFDTn/gal-5.jpg",
+      "count": 6,
+      "room_description": "Elegant triple room with city views. Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others",
+      "room_price": 1780,
+      "room_size": "400 sq ft",
+      "avale": true,
+      "s_offer": "Special anniversary package available"
+    },
+    {
+      "avel_room": "Room 0",
+      "img": "https://i.ibb.co/r4TY1hQ/gal-6.jpg",
+      "count": 4,
+      "room_description": "Classic king-size room with a comfortable bed. Showcase user information in a concise way by using this card example. Use high-quality images for a better effect. This type of card is usually used for team member pages, author bio, and user profiles",
+      "room_price": 2200,
+      "room_size": "450 sq ft",
+      "avale": true,
+      "s_offer": "Complimentary spa access"
+    },
+    {
+      "avel_room": "Room 0",
+      "img": "https://i.ibb.co/mSzCvSD/gal-7.jpg",
+      "count": 9,
+      "room_description": "Modern single room with a workstation. Showcase blog posts in a visually appealing way with our example of blog card. It contains the basic elements that you will need: a headline, an image, a description, authors, and a date",
+      "room_price": 1510,
+      "room_size": "260 sq ft",
+      "avale": true,
+      "s_offer": "Kids stay free with a family booking"
+    },
+    {
+      "avel_room": "Room 108",
+      "img": "https://i.ibb.co/mbjL8yg/gal-8.jpg",
+      "count": 1,
+      "room_description": "Cozy double room with garden views. Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others",
+      "room_price": 1340,
+      "room_size": "320 sq ft",
+      "avale": true,
+      "s_offer": "10% off for returning guests"
+    },
+    {
+      "avel_room": "Room 5",
+      "img": "https://i.ibb.co/mHn8XcL/gal-9.png",
+      "count": 8,
+      "room_description": "Elegant suite with a private terrace. If you have a service booking section on your website, this card if what you will need! The tooltips are used to show the most important features in a user friendly way",
+      "room_price": 2980,
+      "room_size": "600 sq ft",
+      "avale": true,
+      "s_offer": "Free airport shuttle service"
+    },
+    {
+      "avel_room": "Room 0",
+      "img": "https://i.ibb.co/qkHdRX4/gal-10.jpg",
+      "count": 0,
+      "room_description": "Charming single room with vintage decor. Enter a freshly updated and thoughtfully furnished peaceful home surrounded by ancient trees, stone walls, and open meadows ",
+      "room_price": 4590,
+      "room_size": "240 sq ft",
+      "avale": false,
+      "s_offer": "Currently no special offers"
+    },
+    {
+      "avel_room": "Room 5",
+      "img": "https://i.ibb.co/MhHqtRr/gal-11.png",
+      "count": 3,
+      "room_description": "Deluxe double room with ocean view. I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys",
+      "room_price": 4220,
+      "room_size": "400 sq ft",
+      "avale": true,
+      "s_offer": "10% off for a 3-night stay"
+    },
+    {
+      "avel_room": "Room 2",
+      "img": "https://i.ibb.co/2P1D1yy/gal-12.png",
+      "count": 5,
+      "room_description": "Spacious suite with a jacuzzi. Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Yet its own business model disruption is only part of the story",
+      "room_price": 3100,
+      "room_size": "700 sq ft",
+      "avale": true,
+      "s_offer": "Free breakfast included"
+    },
+    {
+      "avel_room": "Room 3",
+      "img": "https://i.ibb.co/302Shbp/gal-13.png",
+      "count": 2,
+      "room_description": "Luxury villa with a private pool. With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case",
+      "room_price": 4000,
+      "room_size": "1000 sq ft",
+      "avale": true,
+      "s_offer": "Stay 4 nights, get the 5th night free"
+    },
+    {
+      "avel_room": "Room 9",
+      "img": "https://i.ibb.co/RjTW3VQ/gal-14.png",
+      "count": 1,
+      "room_description": "Classic twin room with mountain views. The following props are available for card header component. These are the custom props that we've added for the card header component and you can use all the other native props as wel",
+      "room_price": 1340,
+      "room_size": "320 sq ft",
+      "avale": true,
+      "s_offer": "15% off for early booking"
+    },
+    {
+      "avel_room": "Room 11",
+      "img": "https://i.ibb.co/NTsSGgC/gal-15.jpg",
+      "count": 4,
+      "room_description": "Elegant triple room with city views. Learn how to customize the theme and styles for card components, the theme object for card components has three main objects",
+      "room_price": 1980,
+      "room_size": "400 sq ft",
+      "avale": true,
+      "s_offer": "15% off for early booking"
+    },
+    {
+        "avel_room": "Room 10",
+        "img": "https://i.ibb.co/Q6Nc1Nj/gal-16.jpg",
+        "count": 5,
+        "room_description": "A cozy single room with a view.",
+        "room_price": 1700,
+        "room_size": "250 sq ft",
+        "avale": true,
+        "s_offer": "10% off for a 3-night stay"
+      },
+      {
+        "avel_room": "Room 0",
+        "img": "https://i.ibb.co/fHXJLKF/gal-17.jpg",
+        "count": 3,
+        "room_description": "Spacious double room with a balcony. By its definition, a Card is a sheet of material that serves as an entry point to more detailed information. Card usually include a photo, text, and a link about a single subject. They should be easy to scan for relevant and actionable information",
+        "room_price": 1550,
+        "room_size": "350 sq ft",
+        "avale": true,
+        "s_offer": "Free breakfast included"
+      },
+      {
+        "avel_room": "Room 3",
+        "img": "https://i.ibb.co/g62xZ3s/gal-18.png",
+        "count": 7,
+        "room_description": "Luxurious suite with a separate living area. Card usually include a photo, text, and a link about a single subject. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy",
+        "room_price": 2550,
+        "room_size": "500 sq ft",
+        "avale": true,
+        "s_offer": "Stay 4 nights, get the 5th night free"
+      },
+      {
+        "avel_room": "Room 4",
+        "img": "https://i.ibb.co/5Bdtt6f/gal-19.png",
+        "count": 2,
+        "room_description": "Quaint twin room for a comfortable stay. See below our beautiful Card example that you can use in your React and Tailwind CSS projects. We've also included some Card props that are available",
+        "room_price": 1020,
+        "room_size": "280 sq ft",
+        "avale": true,
+        "s_offer": "15% off for early booking"
+      },
+      {
+        "avel_room": "Room 5",
+        "img": "https://i.ibb.co/gMTDTwD/gal-20.jpg",
+        "count": 6,
+        "room_description": "Elegant triple room with city views. The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona",
+        "room_price": 1080,
+        "room_size": "400 sq ft",
+        "avale": true,
+        "s_offer": "Special anniversary package available "
+      },
+      {
+        "avel_room": "Room 1",
+        "img": "https://i.ibb.co/0yNbMTD/gal-21.jpg",
+        "count": 4,
+        "room_description": "Classic king-size room with a comfortable bed. The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona",
+        "room_price": 4200,
+        "room_size": "450 sq ft",
+        "avale": true,
+        "s_offer": "Complimentary spa access"
+      },
+      {
+        "avel_room": "Room 4",
+        "img": "https://i.ibb.co/xGzmTGP/gal-22.jpg",
+        "count": 9,
+        "room_description": "Modern single room with a workstation. Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others",
+        "room_price": 2110,
+        "room_size": "260 sq ft",
+        "avale": true,
+        "s_offer": "Kids stay free with a family booking"
+      },
+      {
+        "avel_room": "Room 2",
+        "img": "https://i.ibb.co/dD7FgtL/gal-23.jpg",
+        "count": 1,
+        "room_description": "Cozy double room with garden views. Showcase user information in a concise way by using this card example. Use high-quality images for a better effect. This type of card is usually used for team member pages, author bio, and user profiles",
+        "room_price": 3140,
+        "room_size": "320 sq ft",
+        "avale": true,
+        "s_offer": "10% off for returning guests"
+      },
+      {
+        "avel_room": "Room 5",
+        "img": "https://i.ibb.co/S7CbmZ1/gal-24.jpg",
+        "count": 8,
+        "room_description": "Elegant suite with a private terrace. This beautiful pricing card will present the pricing plans for the products. It is perfect if you want the highlight the product's features",
+        "room_price": 4280,
+        "room_size": "600 sq ft",
+        "avale": true,
+        "s_offer": "Free airport shuttle service"
+      },
+      {
+        "avel_room": "Room 1",
+        "img": "https://i.ibb.co/WKJRDW4/gal-25.jpg",
+        "count": 0,
+        "room_description": "Charming single room with vintage decor. Showcase blog posts in a visually appealing way with our example of blog card. It contains the basic elements that you will need: a headline, an image, a description, authors, and a dat",
+        "room_price": 3590,
+        "room_size": "240 sq ft",
+        "avale": false,
+        "s_offer": "Currently no special offers"
+      },
+      {
+        "avel_room": "Room 3",
+        "img": "https://i.ibb.co/KjkGvCD/gal-26.jpg",
+        "count": 3,
+        "room_description": "Deluxe double room with ocean view. Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others",
+        "room_price": 2420,
+        "room_size": "400 sq ft",
+        "avale": true,
+        "s_offer": "10% off for a 3-night stay"
+      },
+      {
+        "avel_room": "Room 2",
+        "img": "https://i.ibb.co/6HJMFqJ/gal-27.jpg",
+        "count": 5,
+        "room_description": "Spacious suite with a jacuzzi. If you are looking for a more sophisticated blog card, use this example which uses an image as a background. Blog cards are usually used on blog pages and home pages",
+        "room_price": 3900,
+        "room_size": "700 sq ft",
+        "avale": true,
+        "s_offer": "Free breakfast included"
+      },
+      {
+        "avel_room": "Room 3",
+        "img": "https://i.ibb.co/NKTKNjD/gal-28.jpg",
+        "count": 2,
+        "room_description": "Luxury villa with a private pool. This beautiful pricing card will present the pricing plans for the products. It is perfect if you want the highlight the product's featuresThis beautiful pricing card will present the pricing plans for the products. It is perfect if you want the highlight the product's features",
+        "room_price": 3400,
+        "room_size": "1000 sq ft",
+        "avale": true,
+        "s_offer": "Stay 4 nights, get the 5th night free"
+      },
+      {
+        "avel_room": "Room 1",
+        "img": "https://i.ibb.co/G3fwypZ/gal-29.png",
+        "count": 1,
+        "room_description": "Classic twin room with mountain views. Showcase user information in a concise way by using this card example. Use high-quality images for a better effect. This type of card is usually used for team member pages, author bio, and user profiles",
+        "room_price": 4540,
+        "room_size": "320 sq ft",
+        "avale": true,
+        "s_offer": "25% off for early booking"
+      },
+      {
+        "avel_room": "Room 0",
+        "img": "https://i.ibb.co/RYVgJJm/gal-30.jpg",
+        "count": 4,
+        "room_description": "Elegant triple room with city views. Because it's about motivating the doers. Because I'm here to follow my dreams and inspire othersBecause it's about motivating the doers. Because I'm here to follow my dreams and inspire others",
+        "room_price": 3000,
+        "room_size": "400 sq ft",
+        "avale": true,
+        "s_offer": "10% off for early booking"
+      },
+      {
+        "avel_room": "Room 5",
+        "img": "https://i.ibb.co/bzg1ZDL/gal-31.jpg",
+        "count": 4,
+        "room_description": "Elegant triple room with city views. The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to  where you can enjoy the main night life in Barcelona",
+        "room_price": 2080,
+        "room_size": "400 sq ft",
+        "avale": true,
+        "s_offer": "15% off for early booking"
+      },
+      {
+      "avel_room": "Room 6",
+      "img": "https://i.ibb.co/SdQSWv0/home-1.jpg",
+      "count": 4,
+      "room_description": "Elegant triple room with city views. Learn how to customize the theme and styles for card components, the theme object for card components has three main objects",
+      "room_price": 1980,
+      "room_size": "400 sq ft",
+      "avale": true,
+      "s_offer": "15% off for early booking"
+    },
+    {
+        "avel_room": "Room 2",
+        "img": "https://i.ibb.co/Bfr1M4b/home-2.jpg",
+        "count": 5,
+        "room_description": "A cozy single room with a view.",
+        "room_price": 1700,
+        "room_size": "250 sq ft",
+        "avale": true,
+        "s_offer": "10% off for a 3-night stay"
+      },
+      {
+        "avel_room": "Room 2",
+        "img": "https://i.ibb.co/HGvMNvD/home-3.jpg",
+        "count": 3,
+        "room_description": "Spacious double room with a balcony. By its definition, a Card is a sheet of material that serves as an entry point to more detailed information. Card usually include a photo, text, and a link about a single subject. They should be easy to scan for relevant and actionable information",
+        "room_price": 1550,
+        "room_size": "350 sq ft",
+        "avale": true,
+        "s_offer": "Free breakfast included"
+      },
+      {
+        "avel_room": "Room 3",
+        "img": "https://i.ibb.co/Ms77Fk2/home-4.jpg",
+        "count": 7,
+        "room_description": "Luxurious suite with a separate living area. Card usually include a photo, text, and a link about a single subject. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy",
+        "room_price": 2550,
+        "room_size": "500 sq ft",
+        "avale": true,
+        "s_offer": "Stay 4 nights, get the 5th night free"
+      },
+      {
+        "avel_room": "Room 0",
+        "img": "https://i.ibb.co/9gNyhHN/home-5.jpg",
+        "count": 2,
+        "room_description": "Quaint twin room for a comfortable stay. See below our beautiful Card example that you can use in your React and Tailwind CSS projects. We've also included some Card props that are available",
+        "room_price": 1020,
+        "room_size": "280 sq ft",
+        "avale": true,
+        "s_offer": "15% off for early booking"
+      },
+      {
+        "avel_room": "Room 0",
+        "img": "https://i.ibb.co/55JBWMP/home-6.jpg",
+        "count": 6,
+        "room_description": "Elegant triple room with city views. The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona",
+        "room_price": 1080,
+        "room_size": "400 sq ft",
+        "avale": true,
+        "s_offer": "Special anniversary package available "
+      },
+      {
+        "avel_room": "Room 6",
+        "img": "https://i.ibb.co/vsw0DW5/home-7.jpg",
+        "count": 4,
+        "room_description": "Classic king-size room with a comfortable bed. The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to The place is close to Barceloneta Beach and bus stop just 2 min by walk and near to Naviglio where you can enjoy the main night life in Barcelona",
+        "room_price": 4200,
+        "room_size": "450 sq ft",
+        "avale": true,
+        "s_offer": "Complimentary spa access"
+      },
+      {
+        "avel_room": "Room 4",
+        "img": "https://i.ibb.co/VMGctM1/home-8.jpg",
+        "count": 9,
+        "room_description": "Modern single room with a workstation. Because it's about motivating the doers. Because I'm here to follow my dreams and inspire others",
+        "room_price": 2110,
+        "room_size": "260 sq ft",
+        "avale": true,
+        "s_offer": "Kids stay free with a family booking"
+      },
+      {
+        "avel_room": "Room 8",
+        "img": "https://i.ibb.co/QYgzCxD/home-9.jpg",
+        "count": 1,
+        "room_description": "Cozy double room with garden views. Showcase user information in a concise way by using this card example. Use high-quality images for a better effect. This type of card is usually used for team member pages, author bio, and user profiles",
+        "room_price": 3140,
+        "room_size": "320 sq ft",
+        "avale": true,
+        "s_offer": "10% off for returning guests"
+      },
+      {
+        "avel_room": "Room 10",
+        "img": "https://i.ibb.co/S7CbmZ1/gal-24.jpg",
+        "count": 8,
+        "room_description": "Elegant suite with a private terrace. This beautiful pricing card will present the pricing plans for the products. It is perfect if you want the highlight the product's features",
+        "room_price": 4280,
+        "room_size": "600 sq ft",
+        "avale": true,
+        "s_offer": "Free airport shuttle service"
+      }
+]
+  
