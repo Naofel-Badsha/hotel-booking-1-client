@@ -50,7 +50,7 @@ const Testimonial = () => {
             {testimonials.map((item) => (
               <div key={item.id}>
                 <SwiperSlide>
-                  <div className="border-2 w-full rounded-xl p-4">
+                  <div className="border-2 border-[#008080] rounded-xl p-4 w-full h-full">
                     <div className="flex items-center justify-between gap-4">
                       <div className="h-[80px] w-[80px]">
                         <img
@@ -70,7 +70,7 @@ const Testimonial = () => {
                       <h5 className="text-xl py-2 md:text-2xl lg:text-2xl font-bold text-black">
                         {item.name}
                       </h5>
-                      <p className="text-slate-800 md:text-xl lg:text-xl mb-4 text-center">
+                      <p className="text-slate-800 md:text-xl lg:text-xl mb-4 ">
                         {item.description}
                       </p>
                     </div>

@@ -6,7 +6,7 @@ import Register from "../Components/Register/Register";
 import Room from "../pages/Room/Room";
 import MyBooking from "../pages/MyBooking/MyBooking";
 import RoomDetails from "../pages/Room/RoomDetails";
-import ErroePage from "../Components/ErrorPage/ErroePage";
+//import ErroePage from "../Components/ErrorPage/ErroePage";
 import PrivateRoute from "./PrivateRoute";
 import Contact from "../pages/Contact/Contact";
 import '../App.css'
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    errorElement: <ErroePage></ErroePage>,
+    // errorElement: <ErroePage></ErroePage>,
     children: [
       {
         path: "/",
