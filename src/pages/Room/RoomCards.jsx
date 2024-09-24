@@ -7,7 +7,7 @@ const RoomCards = ({ item }) => {
       <div className="border-2 border-[#008080] relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
         <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
           <div className="w-full h-full">
-            <img src="https://i.ibb.co/dD7FgtL/gal-23.jpg"
+            <img src={image}
             className="w-full h-full object-cover" />
           </div>
         </div>

@@ -9,13 +9,14 @@ import "./SpeacialOffer.css";
 // import required modules
 import { Autoplay } from "swiper/modules";
 import "swiper/css/autoplay";
-//import useRoom from "../../../Hooks/useRoom";
-//import RoomCards from "./../../Room/RoomCards";
+import useRoom from "../../../Hooks/useRoom";
+import RoomCards from "./../../Room/RoomCards";
 
 
 const SpeacialOffer = () => {
-  //const [rooms] = useRoom();
-  //const populer = rooms.filter((item) => item.offerd === "populer");
+  const [rooms] = useRoom();
+  const populer = rooms.filter((item) => item.offerd === "populer");
+  console.log(populer)
 
   return (
     <div className="container m-auto">
@@ -27,7 +28,7 @@ const SpeacialOffer = () => {
         spaceBetween={15}
         slidesPerView={1}
         autoplay={true}
-        grabCursor={true}
+        // grabCursor={true}
         delay={"100"}
         loop={true}
         className="mySwiper"
@@ -44,268 +45,12 @@ const SpeacialOffer = () => {
         }}
       >
         <div>
-          {/* {
-          populer.map(item => <RoomCards key={item._id}></RoomCards>)
-          } */}
+          {
+          populer.map(item => <SwiperSlide>
+          <RoomCards key={item._id} item={item}></RoomCards>
+          </SwiperSlide>)
+          }
         </div>
-        {/* key={item._id} item={item} */}
-        {/*-----------Slider-------1-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-[#008080] relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/5Bdtt6f/gal-19.png" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Family Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  20% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
-        {/*-----------Slider-------2-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-[#008080] relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/0yNbMTD/gal-21.jpg" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Single Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  30% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
-        {/*-----------Slider-------3-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-[#008080] relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/xGzmTGP/gal-22.jpg" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Family Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  50% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
-        {/*-----------Slider-------4-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-rose-500 relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/dD7FgtL/gal-23.jpg" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Single Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  40% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
-
-        {/*-----------Slider-------5-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-[#008080] relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/S7CbmZ1/gal-24.jpg" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Family Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  20% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
-        {/*-----------Slider-------6-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-[#008080] relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/WKJRDW4/gal-25.jpg" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Single Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  30% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
-        {/*-----------Slider-------7-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-[#008080] relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/KjkGvCD/gal-26.jpg" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Family Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  50% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
-        {/*-----------Slider-------8-------*/}
-        {/* <SwiperSlide>
-          <div className="border-2 border-rose-500 relative flex flex-col text-gray-700 bg-white shadow-md rounded-xl">
-            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white h-96 rounded-xl bg-clip-border">
-              <div className="object-cover w-full h-full">
-                <img src="https://i.ibb.co/vZXFDTn/gal-5.jpg" />
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-2">
-                <p className="block font-bold text-base text-[#ff6347]">
-                  Single Room
-                </p>
-                <p className="block font-bold text-base text-[#ff6347]">
-                  40% Discaunt
-                </p>
-              </div>
-              <h1 className="text-[20px] font-bold text-[#008080]">
-                Day per Night
-              </h1>
-              <p className="block font-sans text-sm  font-normal leading-normal text-gray-700 ">
-                With plenty of talk and listen time, voice-activated Siri
-                access, and an available wireless charging case.
-              </p>
-            </div>
-            <div className="mb-6 px-3">
-              <button className="block w-full rounded-md bg-[#008080] py-2 text-center text-white align-middle font-bold text-xl">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </SwiperSlide> */}
       </Swiper>
     </div>
   );
