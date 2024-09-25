@@ -4,7 +4,7 @@ import RoomCards from "./RoomCards";
 import SectionTitle from "../../Components/SectionTitle/SectionTitle";
 
 const Room = () => {
-  const [rooms] = useRoom();
+  const [rooms, refetch] = useRoom();
   const [items, setItems] = useState(rooms);
 
   const filterItem = (categorItem) => {
@@ -12,6 +12,7 @@ const Room = () => {
       return carElem.category === categorItem;
     });
     setItems(updateItems);
+    refetch()
   };
   return (
     <div className="container m-auto py-5">
