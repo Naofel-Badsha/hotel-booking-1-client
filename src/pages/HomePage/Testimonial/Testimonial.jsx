@@ -22,7 +22,7 @@ const Testimonial = () => {
 
   return (
     <div className="container m-auto py-5">
-      <SectionTitle heading={"Room Gallery"}></SectionTitle>
+      <SectionTitle heading={"Client Review"}></SectionTitle>
       <div className="px-3">
         <Swiper
           modules={[Autoplay]}
