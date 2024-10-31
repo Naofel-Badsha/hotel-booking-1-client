@@ -7,7 +7,9 @@ import Price from "../HomePage/Price/Price";
 import Questuin from "../HomePage/Question/Questuin";
 import Services from "../HomePage/Services/Services";
 import SpeacialOffer from "../HomePage/SpeacialOffer/SpeacialOffer";
+import ElegantAccommodation from "../HomePage/ElegantAccommodation/ElegantAccommodation";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
+
 
 
 
@@ -21,6 +23,7 @@ const Home = () => {
             <Welcome></Welcome>
             <Services></Services>
             <SpeacialOffer></SpeacialOffer>
+            <ElegantAccommodation></ElegantAccommodation>
             <Price></Price>
             <Testimonial></Testimonial>
             <Questuin></Questuin>

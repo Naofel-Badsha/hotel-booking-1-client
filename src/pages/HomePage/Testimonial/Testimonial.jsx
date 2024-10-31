@@ -70,7 +70,7 @@ const Testimonial = () => {
                       <h5 className="text-xl py-2 md:text-2xl lg:text-2xl font-bold text-black">
                         {item.name}
                       </h5>
-                      <p className="text-slate-800 md:text-xl lg:text-xl mb-4 ">
+                      <p className="text-slate-800 md:text-xl lg:text-xl mb-4">
                         {item.description}
                       </p>
                     </div>
