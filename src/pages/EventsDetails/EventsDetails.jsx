@@ -41,14 +41,19 @@ const EventsDetails = () => {
                 </h2>
                 <div className="py-5">
                   <p className="text-xl text-slate-700 text-justify">
-                    It is a 5 star deluxe property where the open ocaon meets
+                    A cocktail party is a social occasion, usualy held in early
+                    evening. Coocktails, other alcoholic drinks are served
+                    alongside a selection of night nibbles, called conopes. The
+                    dress code is quite dressy, and a cocktail party will
+                    typically last for two to three house.
                   </p>
                   <p className="text-xl text-slate-700 text-justify mt-4">
-                    The sun kissed beaches, transparent turquoise- shaded
+                    These parties are social events where guests are encouraged
+                    to sociallizo with ono other, mingle and converse.
                   </p>
                 </div>
                 <Link to="/">
-                  <button className="btn bg-[#008080] text-white text-xl border-0">
+                  <button className="btn  bg-[#008080] text-white text-xl border-0">
                     Back Home
                   </button>
                 </Link>
@@ -80,10 +85,14 @@ const EventsDetails = () => {
                 </h2>
                 <div className="py-5">
                   <p className="text-xl text-slate-700 text-justify">
-                    It is a 5 star deluxe property where the open ocaon meets
+                    An event refers to an organized activity that people can
+                    attend and is relevant to the performance, production or
+                    celebration of music. in most cases, this means live
+                    concerts, festivals and other similar activities.
                   </p>
                   <p className="text-xl text-slate-700 text-justify mt-4">
-                    The sun kissed beaches, transparent turquoise- shaded .
+                    This musical night is for all who love music and
+                    socializing.
                   </p>
                 </div>
                 <Link to="/">
@@ -95,7 +104,7 @@ const EventsDetails = () => {
             </div>
           </div>
 
-          {/*---------Events------Details-----1------*/}
+          {/*---------Events------Details-----3------*/}
           <div className="flex gap-6 flex-col-reverse lg:flex-row py-20">
             {/*---------Text---------*/}
             <div className="flex-1">
@@ -105,10 +114,14 @@ const EventsDetails = () => {
                 </h2>
                 <div className="py-5">
                   <p className="text-xl text-slate-700 text-justify">
-                    It is a 5 star deluxe property where the open ocaon meets
+                    Brunch, that delightfil mid-morning fusion of breakfast and
+                    lunch, embodies the essence of leisurely enjoyment. It is an
+                    invitng accasion to gather friends, share stories and savar
+                    a mediey of flavors.
                   </p>
                   <p className="text-xl text-slate-700 text-justify mt-4">
-                    The sun kissed beaches, transparent turquoise- shaded
+                    From innovative brunce concepts to mouthwatering menu
+                    seicctions, we have got your brunce aspairations covered.
                   </p>
                 </div>
                 <Link to="/">
@@ -128,7 +141,7 @@ const EventsDetails = () => {
           </div>
 
           {/*---------Events------Details-----4------*/}
-          <div className="flex gap-6 flex-col lg:flex-row py-20">
+          <div className="flex  gap-6 flex-col lg:flex-row py-20">
             {/*---------Image---------*/}
             <div className="flex-1">
               <img
@@ -139,15 +152,23 @@ const EventsDetails = () => {
             {/*---------Text---------*/}
             <div className="flex-1">
               <div>
-                <h2 className="text-2xl  md:text-3xl lg:text-3xl font-bold text-black py-5">
-                Conference & Seminar ?
+                <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold text-black py-5">
+                  Conference & Seminar ?
                 </h2>
                 <div className="py-5">
                   <p className="text-xl text-slate-700 text-justify">
-                    It is a 5 star deluxe property where the open ocaon meets
+                    Hotel Name offers versatile conference and seminar
+                    facilities designed to cater to all event needs. Equipped
+                    with advanced audio-visual systems, customizable seating
+                    arrangements, and complimentary high-speed Wi-Fi, our spaces
+                    are ideal for business meetings, seminars, and corporate
+                    gatherings.
                   </p>
                   <p className="text-xl text-slate-700 text-justify mt-4">
-                    The sun kissed beaches, transparent turquoise- shaded .
+                    Our experienced event planning team provides full support,
+                    including catering options and breakout areas, to ensure a
+                    seamless and productive experience for attendees. Hotel
+                    Name is committed to making your event successful."
                   </p>
                 </div>
                 <Link to="/">
