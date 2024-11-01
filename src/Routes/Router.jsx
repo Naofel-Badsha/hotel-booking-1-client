@@ -1,15 +1,20 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Layout/Root";
 import Home from "../pages/Home/Home";
-import Login from "../Components/Login/Login";
-import Register from "../Components/Register/Register";
 import Room from "../pages/Room/Room";
 import MyBooking from "../pages/MyBooking/MyBooking";
 import RoomDetails from "../pages/Room/RoomDetails";
 //import ErroePage from "../Components/ErrorPage/ErroePage";
 import PrivateRoute from "./PrivateRoute";
 import Contact from "../pages/Contact/Contact";
+import AboutDetails from './../pages/AboutDetails/AboutDetails';
+
+import Login from "../Components/Login/Login";
+import Register from "../Components/Register/Register";
+import EventsDetails from "../pages/EventsDetails/EventsDetails";
 import '../App.css'
+
+
 
 
 const router = createBrowserRouter([
@@ -39,6 +44,18 @@ const router = createBrowserRouter([
         path: "/contactUs",
         element: <Contact></Contact>,
       },
+      {
+        path: "/aboutDetails",
+        element: <AboutDetails></AboutDetails>,
+      },
+      {
+        path: "/eventsDetails",
+        element: <EventsDetails></EventsDetails>,
+      },
+
+
+
+
       {
         path: "/login",
         element: <Login></Login>,

@@ -166,7 +166,7 @@ const Navbar = () => {
                   className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
                   to="/room"
                 >
-                  Room
+                  Rooms
                 </NavLink>
               </li>
             {/*---------Nav------8--------------*/}

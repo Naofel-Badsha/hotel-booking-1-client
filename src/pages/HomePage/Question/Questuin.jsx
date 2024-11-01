@@ -18,99 +18,177 @@ const Questuin = () => {
           </div>
           {/*---------Accrodion---------------*/}
           <div className="flex-1">
-            <div className="join join-vertical w-full">
-              {/*-------Question--------1-------*/}
-              <div className="collapse collapse-arrow join-item border border-base-300">
-                <input type="radio" name="my-accordion-4" checked="checked" />
-                <div className="collapse-title text-xl md:text-2xl lg:text-2xl font-bold">
-                  How to book our hotel room...?
-                </div>
-                <div className="collapse-content">
-                  <p className="text-bold md:text-xl lg:text-xl">
-                    Decide whether you want to book your hotel room through an
-                    online booking website, the hotels official website, by
-                    phone, in person, or through a travel agency
+            <div id="accordion-collapse" data-accordion="collapse">
+              {/*---------Question-------1--------*/}
+              <h2 id="accordion-collapse-heading-1">
+                <button
+                  type="button"
+                  className="flex items-center justify-between w-full p-5  rtl:text-right text-gray-500 border border-b-0   dark:text-gray-400 hover:bg-gray-100  gap-3"
+                >
+                  <span className="text-2xl font-medium text-black">
+                    Can I Request a late check-out...?
+                  </span>
+                  <svg
+                    data-accordion-icon
+                    className="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5 5 1 1 5"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-1"
+                className="hidden"
+                aria-labelledby="accordion-collapse-heading-2"
+              >
+                <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                  <p className="text-xl text-slate-700">
+                    "Dear [Hotel Name] team, I hope you’re well. I’m reaching
+                    out to see if a late check-out would be possible for my
+                    reservation. It would greatly assist with my travel
+                    schedule. Please let me know if there’s an additional fee,
+                    or if there are any specific requirements. Thank you!"
                   </p>
                 </div>
               </div>
-              {/*-------Question--------2-------*/}
-              <div className="collapse collapse-arrow join-item border border-base-300">
-                <input type="radio" name="my-accordion-4" checked="checked" />
-                <div className="collapse-title text-xl md:text-2xl lg:text-2xl font-bold">
-                  How is our hotel security...?
-                </div>
-                <div className="collapse-content">
-                  <p className="text-bold md:text-xl lg:text-xl">
-                    Read online reviews and ratings from previous guests to get
-                    an idea of their experiences regarding safety and security.
-                    Travel review websites and apps like TripAdvisor or Yelp can
-                    provide valuable insight
+
+              {/*---------Question-------2--------*/}
+              <h2 id="accordion-collapse-heading-2">
+                <button
+                  type="button"
+                  className="flex items-center justify-between w-full p-5 rtl:text-right text-gray-500 border border-b-0   dark:text-gray-400 hover:bg-gray-100  gap-3"
+                >
+                  <span className="text-2xl font-medium text-black">
+                    Is Wi-fi available in the rooms...?
+                  </span>
+                  <svg
+                    data-accordion-icon
+                    className="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5 5 1 1 5"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-2"
+                className="hidden"
+                aria-labelledby="accordion-collapse-heading-2"
+              >
+                <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                  <p className="text-xl text-slate-700">
+                    "Hello [Hotel Name] team, I hope you're doing well. Could
+                    you please confirm if Wi-Fi is available in the rooms for
+                    guest use? Also, is it complimentary, or is there an
+                    additional charge? I would appreciate any details about the
+                    service. Thank you very much!"
                   </p>
                 </div>
               </div>
-              {/*-------Question--------3-------*/}
-              <div className="collapse collapse-arrow join-item border border-base-300">
-                <input type="radio" name="my-accordion-4" checked="checked" />
-                <div className="collapse-title text-xl md:text-2xl lg:text-2xl font-bold">
-                  Climb reviews of our hotels...?
-                </div>
-                <div className="collapse-content">
-                  <p className="text-bold md:text-xl lg:text-xl">
-                    Mention how close the hotel is to popular climbing
-                    destinations, crags, or climbing gyms. Provide information
-                    on whether its within walking distance or a short drive.
-                    Evaluate whether the hotel offers secure storage for
-                    climbing gear, such as a dedicated area for storing ropes,
-                    harnesses, and shoes.
+
+              {/*---------Question-------3--------*/}
+              <h2 id="accordion-collapse-heading-3">
+                <button
+                  type="button"
+                  className="flex items-center justify-between w-full p-5 rtl:text-right text-gray-500 border border-b-0   dark:text-gray-400 hover:bg-gray-100  gap-3"
+                >
+                  <span className="text-2xl font-medium text-black">
+                    Are pets allawed to the hotel....?
+                  </span>
+                  <svg
+                    data-accordion-icon
+                    className="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5 5 1 1 5"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-3"
+                className="hidden"
+                aria-labelledby="accordion-collapse-heading-2"
+              >
+                <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                  <p className="text-xl text-slate-700">
+                    "Hello [Hotel Name] team, I hope you're well. I wanted to
+                    ask if pets are allowed at your hotel. If so, could you
+                    please provide information on any specific pet policies or
+                    additional fees? I’d appreciate any details regarding this.
+                    Thank you very much for your help!"
                   </p>
                 </div>
               </div>
-              {/*-------Question--------4-------*/}
-              <div className="collapse collapse-arrow join-item border border-base-300">
-                <input type="radio" name="my-accordion-4" />
-                <div className="collapse-title text-xl md:text-2xl lg:text-2xl font-bold">
-                  What extra facilities do we provide to hotel clients...?
-                </div>
-                <div className="collapse-content">
-                  <p className="text-bold md:text-xl lg:text-xl">
-                    Wi-Fi , Room Service, Fitness Center, Swimming Pool, Spa and
-                    Wellness Facilities, Airport Transfers, Accessibility
-                    Features,{" "}
+
+              {/*---------Question-------4--------*/}
+              <h2 id="accordion-collapse-heading-4">
+                <button
+                  type="button"
+                  className="flex items-center justify-between w-full p-5 rtl:text-right text-gray-500 border border-b-0   dark:text-gray-400 hover:bg-gray-100  gap-3"
+                >
+                  <span className="text-2xl font-medium text-black">
+                    Can I make dietary requests for dining....?
+                  </span>
+                  <svg
+                    data-accordion-icon
+                    className="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 5 5 1 1 5"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="accordion-collapse-body-4"
+                className="hidden"
+                aria-labelledby="accordion-collapse-heading-2"
+              >
+                <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                  <p className="text-xl text-slate-700">
+                    "Hello [Hotel Name] team, I hope you're well. I’d like to
+                    ask if it's possible to make specific dietary requests for
+                    dining options at your hotel. Are there available
+                    accommodations for allergies or special diets? Any details
+                    on how to make requests would be greatly appreciated. Thank
+                    you!"
                   </p>
-                  <p className="text-bold">
-                    Business Center, Concierge Service, Shuttle Service, On-Site
-                    Dining, Parking, Entertainment, Bicycle Rentals
-                  </p>
-                  <p className="text-bold">
-                    Event and Meeting Spaces, Childcare Services, Pet-Friendly
-                    Amenities, Laundry and Dry Cleaning, Gift Shops and
-                    Boutiques, Cultural or Recreational Activities
-                  </p>
-                  <p></p>
-                </div>
-              </div>
-              {/*-------Question--------5-------*/}
-              <div className="collapse collapse-arrow join-item border border-base-300">
-                <input type="radio" name="my-accordion-4" />
-                <div className="collapse-title text-xl md:text-2xl lg:text-2xl font-bold">
-                  What extra facilities do we provide to hotel clients...?
-                </div>
-                <div className="collapse-content">
-                  <p className="text-bold md:text-xl lg:text-xl">
-                    Wi-Fi , Room Service, Fitness Center, Swimming Pool, Spa and
-                    Wellness Facilities, Airport Transfers, Accessibility
-                    Features,{" "}
-                  </p>
-                  <p className="text-bold">
-                    Business Center, Concierge Service, Shuttle Service, On-Site
-                    Dining, Parking, Entertainment, Bicycle Rentals
-                  </p>
-                  <p className="text-bold">
-                    Event and Meeting Spaces, Childcare Services, Pet-Friendly
-                    Amenities, Laundry and Dry Cleaning, Gift Shops and
-                    Boutiques, Cultural or Recreational Activities
-                  </p>
-                  <p></p>
                 </div>
               </div>
             </div>

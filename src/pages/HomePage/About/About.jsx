@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Counter from "../../../Components/Counter/Counter";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
@@ -33,9 +34,11 @@ const About = () => {
                 needs.
               </p>
               <div>
-                <button className="btn bg-[#008080] border-0 text-white text-xl font-bold">
-                  Lern More...
-                </button>
+                <Link to="/aboutDetails">
+                  <button className="btn bg-[#008080] border-0 text-white text-xl font-bold">
+                    About More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -4,11 +4,12 @@ import About from "../HomePage/About/About";
 import Gallery from "../HomePage/Gallery/Gallery";
 import Welcome from "../HomePage/Welcome/Welcome";
 import Price from "../HomePage/Price/Price";
-import Questuin from "../HomePage/Question/Questuin";
 import Services from "../HomePage/Services/Services";
 import SpeacialOffer from "../HomePage/SpeacialOffer/SpeacialOffer";
 import ElegantAccommodation from "../HomePage/ElegantAccommodation/ElegantAccommodation";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
+import Events from "../HomePage/Events/Events";
+import Questuin from "../HomePage/Question/Questuin";
 
 
 
@@ -26,6 +27,7 @@ const Home = () => {
             <ElegantAccommodation></ElegantAccommodation>
             <Price></Price>
             <Testimonial></Testimonial>
+            <Events></Events>
             <Questuin></Questuin>
         </div>
     );
