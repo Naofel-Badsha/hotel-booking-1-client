@@ -13,6 +13,7 @@ import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
 import EventsDetails from "../pages/EventsDetails/EventsDetails";
 import '../App.css'
+import Facilities from './../pages/Facilities/Facilities';
 
 
 
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: "/eventsDetails",
         element: <EventsDetails></EventsDetails>,
+      },
+      {
+        path: "/facilities",
+        element: <Facilities></Facilities>,
       },
 
 

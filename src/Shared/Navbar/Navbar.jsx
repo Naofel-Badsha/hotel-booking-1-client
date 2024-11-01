@@ -116,7 +116,7 @@ const Navbar = () => {
                     <li className="py-2">
                       <NavLink
                         className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
-                        to=""
+                        to="/facilities"
                       >
                         Facilities
                       </NavLink>
@@ -134,7 +134,7 @@ const Navbar = () => {
                     <li className="py-2">
                       <NavLink
                         className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
-                        to=""
+                        to="/eventsDetails"
                       >
                         Events
                       </NavLink>
@@ -153,9 +153,8 @@ const Navbar = () => {
               </li>
              {/*---------Nav------6--------------*/}
               <li>
-                <NavLink
+                <NavLink to="/aboutDetails"
                   className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
-                  to=""
                 >
                   about
                 </NavLink>

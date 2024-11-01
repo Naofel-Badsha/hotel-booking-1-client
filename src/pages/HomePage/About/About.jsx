@@ -12,7 +12,7 @@ const About = () => {
           {/*------------Image-----------*/}
           <div className="flex-1 w-full h-[400px]">
             <img
-              src="https://i.ibb.co.com/d4p9BRw/images-1.jpg"
+              src="https://i.ibb.co.com/HYdk7P8/Home-22.jpg"
               className="w-full h-full object-cover rounded-md"
             />
           </div>
@@ -21,7 +21,7 @@ const About = () => {
             <div>
               <h3 className="text-3xl font-bold mt-6">Crowny Hotel</h3>
               <p className="py-6 md:text-xl lg:text-xl text-slate-800 text-justify">
-                Welcome to [HotelBooking], a leading platform for finding and
+                Welcome to HotelBooking, a leading platform for finding and
                 booking hotels worldwide. Whether you’re looking for
                 budget-friendly stays, luxury resorts, or anything in between,
                 we’ve got you covered. Our platform offers a seamless booking
