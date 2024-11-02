@@ -24,7 +24,7 @@ const SpeacialOffer = () => {
       <div className="px-3">
         <Swiper
           modules={[Autoplay]}
-          spaceBetween={15}
+          spaceBetween={25}
           slidesPerView={1}
           autoplay={true}
           // grabCursor={true}

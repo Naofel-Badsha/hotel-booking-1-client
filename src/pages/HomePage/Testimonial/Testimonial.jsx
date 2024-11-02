@@ -26,7 +26,7 @@ const Testimonial = () => {
       <div className="px-3">
         <Swiper
           modules={[Autoplay]}
-          spaceBetween={20}
+          spaceBetween={25}
           slidesPerView={1}
           autoplay={true}
           grabCursor={true}

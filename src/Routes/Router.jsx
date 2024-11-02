@@ -7,16 +7,16 @@ import RoomDetails from "../pages/Room/RoomDetails";
 //import ErroePage from "../Components/ErrorPage/ErroePage";
 import PrivateRoute from "./PrivateRoute";
 import Contact from "../pages/Contact/Contact";
-import AboutDetails from './../pages/AboutDetails/AboutDetails';
+import AboutDetails from "./../pages/AboutDetails/AboutDetails";
 
 import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
 import EventsDetails from "../pages/EventsDetails/EventsDetails";
-import '../App.css'
-import Facilities from './../pages/Facilities/Facilities';
-
-
-
+import "../App.css";
+import Facilities from "./../pages/Facilities/Facilities";
+import DashboardLayout from "../Layout/DashboardLayout";
+import Dashboard from "../pages/DashboardPage/Dashboard/Dashboard";
+import AllUsers from "../pages/DashboardPage/AllUsers/AllUsers";
 
 const router = createBrowserRouter([
   {
@@ -30,16 +30,29 @@ const router = createBrowserRouter([
       },
       {
         path: "/room",
-        element: <PrivateRoute><Room></Room></PrivateRoute>,
+        element: (
+          <PrivateRoute>
+            <Room></Room>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/roomDetails/:id",
-        element: <PrivateRoute><RoomDetails></RoomDetails></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/rooms/${params.id}`),
+        element: (
+          <PrivateRoute>
+            <RoomDetails></RoomDetails>
+          </PrivateRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/rooms/${params.id}`),
       },
       {
         path: "/booking",
-        element: <PrivateRoute><MyBooking></MyBooking></PrivateRoute>,
+        element: (
+          <PrivateRoute>
+            <MyBooking></MyBooking>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/contactUs",
@@ -57,10 +70,6 @@ const router = createBrowserRouter([
         path: "/facilities",
         element: <Facilities></Facilities>,
       },
-
-
-
-
       {
         path: "/login",
         element: <Login></Login>,
@@ -68,6 +77,21 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+    ],
+  },
+
+  {
+    path: "/dashboard",
+    element: <DashboardLayout></DashboardLayout>,
+    children: [
+      {
+        index: "dashboard",
+        element: <Dashboard></Dashboard>,
+      },
+      {
+        path: "allUsers",
+        element: <AllUsers></AllUsers>,
       },
     ],
   },

@@ -19,25 +19,21 @@ const Navbar = () => {
     // className="py-2 bg-opacity-30  text-black shadow-md backdrop-blur-2xl backdrop-saturate-200  fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
 
     <div>
-      <nav className="bg-[#008080ef] fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+      <nav className="bg-white border-2 fixed w-full z-20 top-0 start-0">
         <div className="container m-auto flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="#"
-            className="flex items-center space-x-3 "
-          >
+          {/*------Logo------*/}
+          <div >
             <img
-              src="https://i.ibb.co.com/FwKqGKf/557ab69f1697091550582.jpg"
+              src="https://i.ibb.co.com/5j6R51X/7-Star-Logo.png"
               className="w-[70px] h-[70px] object-cover"
             />
-            {/* <span className="font-bold text-2xl text-[#008080] hidden lg:block">
-              7 Star
-            </span> */}
-          </a>
+          </div>
 
-          <div className="flex gap-3 md:order-2 space-x-3 md:space-x-0 ">
+         {/*-----------Profile-------------------*/}
+          <div className="flex gap-3 md:order-2">
             {/*----------------*/}
             <img
-              className="w-[40px] h-[40px] mr-2 rounded-full"
+              className="w-[40px] h-[40px] rounded-full"
               src={
                 user?.photoURL
                   ? user.photoURL
@@ -47,13 +43,13 @@ const Navbar = () => {
             {user ? (
               <button
                 onClick={handelSingOut}
-                className="btn text-xl text-white font-bold bg-[#008080] rounded-md border-0"
+                className="btn md:text-xl lg:text-xl text-white font-bold bg-sky-500 rounded-md border-0"
               >
-                Sing Out
+                Log Out
               </button>
             ) : (
               <Link to="login">
-                <button className="btn text-xl text-white bg-[#ff6347] font-bold rounded-md border-0">
+                <button className="btn md:text-xl lg:text-xl text-white bg-[#ff6347] font-bold rounded-md border-0">
                   Login
                 </button>
               </Link>
@@ -66,7 +62,7 @@ const Navbar = () => {
               aria-controls="navbar-dropdown"
               aria-expanded="false"
             >
-              <FaBars className="text-4xl text-white"></FaBars>
+              <FaBars className="text-3xl md:text-4xl text-[#008080ef]"></FaBars>
             </button>
           </div>
 
@@ -74,11 +70,11 @@ const Navbar = () => {
             className="hidden w-full md:block md:w-auto"
             id="navbar-dropdown"
           >
-            <ul className="flex flex-col font-medium  p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   dark:border-gray-700">
+            <ul className="flex flex-col font-medium  p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-5 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   dark:border-gray-700">
               {/*---------Nav------1--------------*/}
               <li>
                 <NavLink
-                  className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   to="/"
                 >
                   Home
@@ -89,7 +85,7 @@ const Navbar = () => {
                 <button
                   id="dropdownNavbarLink"
                   data-dropdown-toggle="dropdownNavbar"
-                  className="flex items-center justify-between w-full py-2 px-3 text-white text-xl font-bold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blak md:p-0 md:w-auto dark:text-white md:dark:hover:text-black dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                  className="flex items-center justify-between w-full py-2 px-3 text-[#008080ef] text-xl font-bold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:w-auto dark:hover:text-white md:dark:hover:text-black  dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                 >
                   Dropdown <FaArrowDown className="text-xl" />
                 </button>
@@ -100,14 +96,14 @@ const Navbar = () => {
                   className="z-10 hidden  divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                 >
                   <ul
-                    className="p-4  bg-[#008080ef]  text-gray-700 dark:text-gray-400"
+                    className="p-4  bg-white text-gray-700 dark:text-gray-400"
                     aria-labelledby="dropdownLargeButton"
                   >
                     {/*---------Nav------2--------------*/}
                     <li className="py-2">
                       <NavLink
-                        className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
-                        to=""
+                        className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
+                        to="/dashboard"
                       >
                         DashBoard
                       </NavLink>
@@ -115,7 +111,7 @@ const Navbar = () => {
                     {/*---------Nav------3--------------*/}
                     <li className="py-2">
                       <NavLink
-                        className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
+                        className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
                         to="/facilities"
                       >
                         Facilities
@@ -124,7 +120,7 @@ const Navbar = () => {
                     {/*---------Nav------4--------------*/}
                     <li className="py-2">
                       <NavLink
-                        className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
+                        className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
                         to="/booking"
                       >
                         Booking
@@ -133,7 +129,7 @@ const Navbar = () => {
                     {/*---------Nav------5--------------*/}
                     <li className="py-2">
                       <NavLink
-                        className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
+                        className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
                         to="/eventsDetails"
                       >
                         Events
@@ -151,27 +147,28 @@ const Navbar = () => {
                 </div>
                 {/* <!------------Dropdown menu------------> */}
               </li>
-             {/*---------Nav------6--------------*/}
+              {/*---------Nav------6--------------*/}
               <li>
-                <NavLink to="/aboutDetails"
-                  className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
+                <NavLink
+                  to="/aboutDetails"
+                  className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
                 >
                   about
                 </NavLink>
               </li>
-            {/*---------Nav------7--------------*/}
+              {/*---------Nav------7--------------*/}
               <li>
                 <NavLink
-                  className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
+                  className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
                   to="/room"
                 >
                   Rooms
                 </NavLink>
               </li>
-            {/*---------Nav------8--------------*/}
+              {/*---------Nav------8--------------*/}
               <li>
                 <NavLink
-                  className="block text-xl py-2 px-3 text-white rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
+                  className="block text-xl py-2 px-3 text-[#008080ef] rounded  md:hover:bg-transparent hover:text-black md:p-0 md:dark:hover:text-black font-bold   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-70"
                   to="/contactUs"
                 >
                   Contact

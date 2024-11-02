@@ -5,7 +5,7 @@ const Services = () => {
     <div className="container m-auto py-5">
       <SectionTitle heading={"Hotel Services"}></SectionTitle>
       <div className="px-3">
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {/*--------services------card------1------*/}
           <div className="border-2 border-[#008080] rounded-md">
             <div className="p-8 text-center">

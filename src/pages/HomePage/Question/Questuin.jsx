@@ -6,7 +6,7 @@ const Questuin = () => {
       {/*----------Section-----Title---------*/}
       <SectionTitle heading={"Client Question"}></SectionTitle>
       <div className="px-3">
-        <div className="flex items-center gap-4 md:gap-6 lg:gap-10 flex-col lg:flex-row">
+        <div className="flex items-center gap-6 md:gap-6 lg:gap-10 flex-col lg:flex-row">
           {/*----------Images---------------*/}
           <div className="flex-1">
             <div className="w-full h-[500px]">

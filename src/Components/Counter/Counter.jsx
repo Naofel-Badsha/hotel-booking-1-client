@@ -11,7 +11,7 @@ const Counter = () => {
       >
         {/*---------Counter---------Start---------*/}
         <div className="py-10">
-          <div className="grid gap-4 md:grid-cols-1 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-3">
             {/*-------------Counter---------1---------*/}
             <div className="bg-[#008080] px-6 rounded-md py-7">
               <h1 className="text-center font-bold text-white  text-5xl md:text-5xl lg:text-6xl">
