@@ -17,6 +17,7 @@ import Facilities from "./../pages/Facilities/Facilities";
 import DashboardLayout from "../Layout/DashboardLayout";
 import Dashboard from "../pages/DashboardPage/Dashboard/Dashboard";
 import AllUsers from "../pages/DashboardPage/AllUsers/AllUsers";
+import BookingRoom from './../pages/DashboardPage/BookingRoom/BookingRoom';
 
 const router = createBrowserRouter([
   {
@@ -92,6 +93,10 @@ const router = createBrowserRouter([
       {
         path: "allUsers",
         element: <AllUsers></AllUsers>,
+      },
+      {
+        path: "bookigRoom",
+        element: <BookingRoom></BookingRoom>,
       },
     ],
   },

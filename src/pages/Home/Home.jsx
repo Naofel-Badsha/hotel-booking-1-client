@@ -9,8 +9,6 @@ import SpeacialOffer from "../HomePage/SpeacialOffer/SpeacialOffer";
 import ElegantAccommodation from "../HomePage/ElegantAccommodation/ElegantAccommodation";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
 import Events from "../HomePage/Events/Events";
-import Questuin from "../HomePage/Question/Questuin";
-
 
 
 
@@ -28,7 +26,7 @@ const Home = () => {
             <Price></Price>
             <Testimonial></Testimonial>
             <Events></Events>
-            <Questuin></Questuin>
+            {/* <Questuin></Questuin> */}
         </div>
     );
 };
