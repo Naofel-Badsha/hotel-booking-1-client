@@ -17,7 +17,7 @@ const Facilities = () => {
             style={{
               width: "100%",
               height: "91vh",
-              marginTop: "100px",
+              marginTop: "99px",
               opacity: "0.7",
               objectFit: "cover",
             }}
