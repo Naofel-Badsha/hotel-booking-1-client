@@ -18,6 +18,8 @@ import DashboardLayout from "../Layout/DashboardLayout";
 import Dashboard from "../pages/DashboardPage/Dashboard/Dashboard";
 import AllUsers from "../pages/DashboardPage/AllUsers/AllUsers";
 import BookingRoom from './../pages/DashboardPage/BookingRoom/BookingRoom';
+import AddRoom from './../pages/DashboardPage/AddRoom/AddRoom';
+import ManageRoom from './../pages/DashboardPage/ManageRoom/ManageRoom';
 
 const router = createBrowserRouter([
   {
@@ -97,6 +99,14 @@ const router = createBrowserRouter([
       {
         path: "bookigRoom",
         element: <BookingRoom></BookingRoom>,
+      },
+      {
+        path: "addRoom",
+        element: <AddRoom></AddRoom>,
+      },
+      {
+        path: "manageRoom",
+        element: <ManageRoom></ManageRoom>,
       },
     ],
   },

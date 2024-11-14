@@ -3,12 +3,12 @@ import Sidebar from "../Components/Sidebar/Sidebar";
 
 const DashboardLayout = () => {
   return (
-    <div className=" min-h-screen">
-      <Sidebar></Sidebar>
-      <div className=" ">
-        <div className=" p-5">
-          <Outlet />
-        </div>
+    <div className=" ">
+      <div className="col-span-1">
+        <Sidebar></Sidebar>
+      </div>
+      <div className="container m-auto ">
+        <Outlet />
       </div>
     </div>
   );
